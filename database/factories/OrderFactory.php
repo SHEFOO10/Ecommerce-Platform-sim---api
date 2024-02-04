@@ -17,6 +17,7 @@ class OrderFactory extends Factory
     public function definition(): array
     {
         return [
+            'order_number' => 'ORD-' . now()->format('YmdHis'),
             'order_price' => 6000,
             'user_id' => 1
         ];

@@ -14,7 +14,7 @@ return new class extends Migration
     {
         Schema::create('orders', function (Blueprint $table) {
             $table->id();
-            $table->string('order_number')->default('ORD-' . now()->format('YmdHis'). Str::random(8))->unique();
+            $table->string('order_number')->unique();
             $table->decimal('order_price', 10, 2);
             $table->timestamps();
 
