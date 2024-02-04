@@ -2,7 +2,6 @@
 
 
 <h2 align='center'> Ecommerce Simulation Api </h2>
-<hr>
 
 ### dependencies
 ----
