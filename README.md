@@ -13,7 +13,7 @@ if not install it from [ Composer Download Page ](https://getcomposer.org/downlo
 ### Installation
 ----
 
-```code
+```shell
     $ git clone https://github.com/SHEFOO10/Ecommerce-Platform-sim-api.git
 
     $ cd Ecommerce-Platform-sim-api
@@ -35,7 +35,7 @@ if not install it from [ Composer Download Page ](https://getcomposer.org/downlo
 
 **to start test api like in documentation examples
 you must run the migrations, and seeders to see test data**
-```code
+```shell
     (Ecommerce-Platform-sim-api) $ php artisan migrate
     (Ecommerce-Platform-sim-api) $ php artisan db:seed
     Api Token for Test User : <Token>
@@ -43,7 +43,7 @@ you must run the migrations, and seeders to see test data**
 <br>
 
 **To Start the server :**
-```code
+```shell
    (Ecommerce-Platform-sim-api) $ php artisan serve
 ```
 
